@@ -7,7 +7,7 @@ export default function checkAuthorization(
     nextFunction: NextFunction
 ) {
     try {
-        if(process.env.API_KEY !== request.get("X-API-KEY")) {
+        if(process.env.X_API_KEY !== request.get("X-API-KEY")) {
             const result: IResponse = {
                 data: null,
                 error: "Wrong API keys"

@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "serve": "node dist/main.js",
+    "serve": "node dist/server.js",
     "start": "npm run build && npm run serve"
   },
   "dependencies": {
