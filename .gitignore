@@ -1,0 +1,7 @@
+.idea
+node_modules
+wallet.json
+.env
+answer.xml
+question.xml
+dist
